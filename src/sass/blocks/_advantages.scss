@@ -1,0 +1,49 @@
+.advantages {
+    background-color: #F6F6F6;
+    padding: 73px 0 65px 0;
+    &__title {
+        text-align: center; 
+        color: #0D0D0D;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-top: 60px;
+    }
+    &__item {
+        max-width: 270px;
+        img {
+            display: block;
+            width: 70px;
+            height: 70px;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+    }
+    &__item_title {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 29px;
+        text-align: center;
+        color: #0D0D0D;
+    }
+    &__item_descr {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 18px;
+        text-align: center;
+        color: #0D0D0D;
+        a {
+            font-weight: 300;
+            font-size: 14px;
+            line-height: 18px;
+            color:#FF0000;
+            text-decoration-line: underline;
+        }
+    }
+}
