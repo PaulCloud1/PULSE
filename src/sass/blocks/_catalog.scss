@@ -19,6 +19,7 @@
         width: 220px;
         height: 50px;
         border: 2px solid #D0D0D0;
+        color: #6b6b6b;
         font-size: 18px;
         font-weight: 400;
         text-transform: uppercase;
@@ -44,17 +45,20 @@
     }
     &__content {
         margin-top: 60px;
-        display: flex;
+        display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &_active {
+            display: flex;
+        }
     }
     &-item {
         width: 300px;
         min-height: 440px;
         border: 2px solid #E8E8E8;
         padding: 20px 20px 26px 20px;
+        overflow: hidden;
         margin-bottom: 20px;
-        // overflow: hidden;
         img {
             display: block;
             margin: 0 auto;
@@ -73,7 +77,6 @@
             margin-top: 16px;
             font-weight: 300;
             font-size: 14px;
-            line-height: 22px;
             text-align: center;
             color: #0D0D0D;
         }
@@ -83,7 +86,7 @@
             font-weight: 500;
             font-size: 14px;
             text-align: center;
-            text-decoration-line: underline;
+            text-decoration: underline;
             color: #C70101;
             text-transform: uppercase;
             &:hover {
@@ -93,7 +96,7 @@
         hr {
             margin-top: 19px;
             margin-bottom: 21px;
-            background: #E8E8E8;
+            background-color: #E8E8E8;
             border-bottom: none;
         }
         &__footer {
@@ -104,8 +107,7 @@
         &__old-price {
             font-weight: 300;
             font-size: 14px;
-            line-height: 14px;
-            text-decoration-line: line-through;
+            text-decoration: line-through;
             color: #555555;
         }
         &__price {
