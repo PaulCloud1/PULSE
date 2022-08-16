@@ -1,0 +1,39 @@
+.reviews {
+    &__title {
+        text-transform: uppercase;
+        color: #0D0D0D;
+        text-align: center;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    &__content {
+        padding: 60px 0 0 0 ;
+        display: flex;
+    }
+    img {
+        width: 169px;
+        height: 169px;
+    }
+    &__people {
+        margin-left:60px;
+    }
+    &__name {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 18px;
+        color: #0D0D0D;
+        span {
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #646464;
+        }
+    }
+    &__text {
+        margin-top: 10px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+}
